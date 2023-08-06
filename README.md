@@ -3,7 +3,7 @@
 
 ![Captura de Tela (71)](https://github.com/WV-Wesley-Victor/Projeto-My-Components/assets/137107062/981b9bbc-8697-4f28-abf8-5fbaeab130d5)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Projeto-Kenoji/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Projeto-My-Components/" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Descrição
