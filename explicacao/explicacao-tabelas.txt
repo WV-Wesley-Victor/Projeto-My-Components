@@ -1,0 +1,23 @@
+Esse código HTML representa uma página da web que explora diferentes tipos de tabelas HTML usando estilos definidos no arquivo "estilo.css". Vou explicar cada parte do código para você:
+
+1 - Metadados da Página (head): Nesta seção, há várias meta tags que fornecem informações sobre a página, como o conjunto de caracteres, a descrição, palavras-chave e o título da página. Também são incluídos links para os arquivos de estilo "normalize.css" e "estilo.css".
+
+2 - Cabeçalho (header): Aqui, você encontra o cabeçalho da página, que inclui um logotipo (imagem "perfil.png") e um menu de navegação com links para diferentes seções da página.
+
+3 - Conteúdo Principal (main): O conteúdo principal da página está dentro deste elemento. Começa com um título principal (h1) "My Components" e um artigo de destaque (article) que fornece uma breve introdução às tabelas.
+
+4 - Seções de Tabelas: O restante do conteúdo principal é composto por várias seções, cada uma delas demonstrando diferentes tipos de tabelas HTML.
+
+    - Tabela Padrão: Uma tabela padrão (table) com cabeçalho (thead) e corpo (tbody) que contém linhas (tr) de dados e células (th) de cabeçalho.
+
+    - Tabela Zebrada: Uma tabela similar à anterior, mas com uma classe adicional "table-alternate", que aplica um estilo de listras zebradas às linhas do corpo da tabela.
+
+    - Tabela com Separação Vertical: Uma tabela similar à primeira, mas com uma classe adicional "table-verticalLines", que adiciona uma linha vertical entre as células.
+
+    - Tabela Zebrada com Separação Vertical: Uma combinação das características das tabelas zebradas e com separação vertical.
+
+Cada seção de tabela contém uma tabela (table) com um cabeçalho (thead) que define os cabeçalhos das colunas e um corpo (tbody) que contém as linhas (tr) de dados. As células do cabeçalho (th) e as células de dados (td) contêm informações como "Nome", "Título" e "E-mail" para cada entrada.
+
+A formatação visual dessas tabelas é controlada principalmente pelo arquivo "estilo.css", que você incluiu através das tags de link no cabeçalho da página. As classes como "table", "table-alternate" e "table-verticalLines" definem os estilos específicos para as diferentes tabelas, incluindo cores de fundo, espaçamentos e bordas.
+
+No geral, este código cria uma página que demonstra diferentes estilos de tabelas HTML, incluindo tabelas padrão, zebradas e com separação vertical, usando os estilos definidos no arquivo "estilo.css".

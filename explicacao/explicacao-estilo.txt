@@ -1,0 +1,49 @@
+Esse código HTML e CSS define o estilo e layout de uma página web. Vou explicar cada parte do código:
+
+1 - Declarações de variáveis CSS (Custom Properties): São definidas variáveis que armazenam cores, espaçamentos e outras propriedades para facilitar o uso e reuso em diferentes partes do estilo.
+
+2 - Definição da Fonte Base e Tamanho de Texto: Define a fonte base e o tamanho de texto em relação ao valor "rem", para facilitar o cálculo de tamanhos de fonte relativos.
+
+3 - Estilos Globais do Corpo (Body): Define as configurações globais do corpo da página, como cor de fundo, imagem de fundo e outras propriedades.
+
+4 - Estilos para Títulos: Define estilos para diferentes tamanhos de títulos, como h1, h2, h3, h4, h5 e h6, usando as variáveis de cores definidas.
+
+5 - Estilos para o Elemento de Destaque (highlight): Define estilos para um elemento de destaque, com uma borda esquerda, tamanho de fonte e preenchimento específicos.
+
+6 - Estilos para Artigos (article): Define espaçamento para artigos.
+
+7 - Estilos para Seções (section): Define margem inferior para seções.
+
+8 - Estilos para Linha Flexível (row): Define um layout flexível para alinhar itens horizontalmente.
+
+9 - Estilos para Listas Alternadas (alternate): Define estilos para listas alternadas.
+
+10 - Estilos para Botões (btn): Define estilos para botões, incluindo cores, bordas, tamanho de fonte e margens.
+
+11 - Estilos para Tabelas (table): Define estilos para tabelas, incluindo bordas e espaçamento das células.
+
+12 - Estilos para Ícones (link-icon, icon): Define estilos para links com ícones, como a cor do ícone ao passar o mouse.
+
+Esses estilos são aplicados a diferentes partes do documento HTML:
+
+    - main-header: Estilos para o cabeçalho principal, incluindo cores de fundo, largura e posicionamento fixo.
+
+    - main: Estilos para a seção principal da página, incluindo cores de fundo e espaçamento.
+
+    - main-nav: Estilos para a barra de navegação lateral, incluindo cor de fundo e espaçamento.
+
+    - perfil-img: Estilos para a imagem do perfil.
+
+    - main-nav ul: Estilos para a lista de links de navegação.
+
+    - .card: Estilos para os elementos de card, incluindo cores de fundo e espaçamento.
+
+    - .card_content: Estilos para o conteúdo do card, incluindo espaçamento interno.
+
+    - .btn-stroke, .btn-big, .btn-full: Estilos diferentes para diferentes tipos de botões.
+
+    - .table: Estilos para tabelas.
+
+    - .link-icon, .icon: Estilos para ícones em links.
+
+Esses são apenas alguns dos estilos definidos no código. Eles são aplicados aos elementos HTML da página para criar a aparência e o layout desejados.

@@ -1,0 +1,21 @@
+Vou explicar o código HTML fornecido:
+
+1 - Declaração do Documento e Metadados: A primeira parte do código declara o tipo de documento como HTML5 e inclui metadados importantes, como codificação, viewport e informações sobre o autor e a descrição da página.
+
+2 - Cabeçalho (Header) da Página:
+
+    - main-header: Define o cabeçalho principal da página, que inclui um logotipo ou imagem de perfil e uma barra de navegação (main-nav) contendo links para outras páginas.
+
+3 - Corpo (Body) da Página:
+
+    - main: Define a seção principal da página, que contém um título (h1) e um artigo (article) que descrevem o projeto "My Components" e o criador Wesley Victor Pereira Silva.
+        - h2: Título do artigo, "A sua área para armazenar seus códigos HTML e CSS".
+        - h3: Subtítulo que destaca os componentes criados por Wesley Victor Pereira Silva para o GitHub.
+        - p: Parágrafo que descreve o autor como um estudante dedicado e entusiasmado de tecnologias front-end, compartilhando sua paixão por aprender e crescer profissionalmente.
+    - address: Uma seção para exibir as redes sociais do autor.
+        - h3: Título da seção, "Venha conhecer as minhas redes sociais".
+        - p: Parágrafo contendo ícones e links para as redes sociais do autor.
+
+4 - Arquivos CSS: São incluídos os arquivos CSS "normalize.css" e "estilo.css" para aplicar estilos à página.
+
+Este código cria uma página que apresenta informações sobre o projeto "My Components" e o autor Wesley Victor Pereira Silva. A página inclui um cabeçalho de navegação, uma seção principal com um título e um artigo descritivo, bem como informações sobre as redes sociais do autor. Cada seção é estilizada com base nos estilos definidos nos arquivos CSS.

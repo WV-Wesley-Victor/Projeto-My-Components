@@ -1,0 +1,23 @@
+Vou explicar o código HTML:
+
+1 - Configurações do Documento HTML: As primeiras linhas definem algumas informações sobre o documento HTML, como a linguagem, codificação, título da página e links para arquivos CSS.
+
+2 - Cabeçalho (Header): Aqui é definido o cabeçalho da página, contendo uma barra de navegação (menu) que leva a diferentes seções da página. O logotipo (imagem de perfil) está incluído no canto superior esquerdo.
+
+3 - Corpo (Body): O corpo da página contém o conteúdo principal.
+
+4 - Seção Principal (Main): Aqui está o conteúdo principal da página. O título principal "My Components" é seguido por um artigo de destaque que explica o propósito dos cards.
+
+5 - Primeira Seção de Cards: Uma seção onde é demonstrado um único card. Cada card contém uma imagem e informações (título e descrição) dentro de elementos div para agrupar o conteúdo.
+
+6 - Segunda Seção de Cards: Esta seção demonstra dois cards em uma mesma linha.
+
+7 - Terceira Seção de Cards: Aqui são demonstrados três cards em uma mesma linha.
+
+8 - Quarta Seção de Cards: Nesta seção, quatro cards são exibidos em uma mesma linha. Os cards nessa seção têm imagens menores.
+
+Cada card é criado usando a classe CSS "card", que é definida no arquivo "estilo.css". As classes de estilo definem várias propriedades visuais, como cores, fontes e espaçamento, para criar o layout e o design dos cards. As imagens para os cards são definidas nos atributos src dos elementos img.
+
+O CSS personalizado em "estilo.css" controla a aparência visual dos cards, títulos e descrições, permitindo que você ajuste o estilo conforme necessário para atender ao design desejado.
+
+No geral, este código HTML cria uma página de demonstração que exibe cards com diferentes layouts e estilos, demonstrando como criar e estilizar cards usando HTML e CSS.

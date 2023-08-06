@@ -1,0 +1,40 @@
+Vou explicar o código HTML fornecido:
+
+1 - Declaração do Documento e Metadados: A primeira parte do código declara o tipo de documento como HTML5 e inclui metadados importantes, como codificação, viewport e informações sobre o autor e a descrição da página.
+
+2 - Cabeçalho (Header) da Página:
+
+    - main-header: Define o cabeçalho principal da página, que inclui um logotipo ou imagem de perfil e uma barra de navegação (main-nav) contendo links para outras páginas.
+
+3 - Corpo (Body) da Página:
+
+    - main: Define a seção principal da página, que contém os componentes da página, como um título (h1) e duas seções distintas.
+
+4 - Seção de Contato:
+
+    - h2: Título da primeira seção, "Entre em contato".
+    - form: Um formulário de contato onde os usuários podem inserir seu nome, e-mail e mensagem.
+        - div.row: Um contêiner para os campos de nome e e-mail, organizados em duas colunas.
+            - label: Rótulo para o campo "Nome".
+            - input[type="text"]: Campo de entrada de texto para o nome.
+            - label: Rótulo para o campo "E-mail".
+            - input[type="email"]: Campo de entrada de e-mail.
+        - label: Rótulo para o campo "Digite sua mensagem".
+        - textarea: Área de texto para o usuário inserir sua mensagem.
+        - input[type="submit"]: Botão de envio do formulário.
+    - address: Uma seção para informações de contato, como endereço, telefone e e-mail.
+
+5 - Seção de Quiz:
+
+    - h2: Título da segunda seção, "Quiz".
+    - form: Um formulário de quiz onde os usuários podem selecionar sua linguagem de programação preferida, prioridade e outras opções.
+        - label: Rótulo para a pergunta "Qual é a sua linguagem preferida?".
+        - select: Campo de seleção para escolher uma linguagem.
+            - option: Opção para selecionar uma linguagem.
+        - label: Rótulos e campos de entrada para selecionar a prioridade e opções adicionais.
+        - input[type="reset"]: Botão para redefinir os campos do formulário.
+        - input[type="submit"]: Botão de envio do formulário.
+
+6 - Arquivos CSS: São incluídos os arquivos CSS "normalize.css" e "estilo.css" para aplicar estilos à página.
+
+Esse código cria uma página com um cabeçalho de navegação, duas seções (uma para um formulário de contato e outra para um quiz), e aplica estilos a elementos específicos para melhorar a aparência e a interatividade da página. Cada seção contém formulários que permitem aos usuários interagir e inserir informações, como parte de um formulário de contato ou para responder a perguntas em um quiz.

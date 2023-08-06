@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <meta name="description"
+        content="Explore diferentes elementos de tipografia HTML, incluindo negrito, itálico, sobrescrito, subscrito, abreviações, citações, código, datas e horários no Projeto My Components de Wesley Victor Pereira Silva." />
+    <meta name="keywords"
+        content="Projeto My Components, Wesley Victor Pereira Silva, elementos de tipografia HTML, negrito, itálico, sobrescrito, subscrito, abreviações, citações, código, datas e horários" />
+    <title>Tipografia</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#"><img src="img/perfil.png" alt="Wesley Victor Pereira Silva" class="perfil-img" /></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>My Components</h1>
+        <article class="highlight">
+            <h2>Tipografia</h2>
+            <p>
+                A tipografia transmite nossas definições de tamanho e espaçamentos,
+                sendo essencial utilizá-la de maneira que respeite a hierarquia dos
+                elementos na interface.
+            </p>
+        </article>
+        <section>
+            <h3>Elementos</h3>
+            <article>
+                <h4>Textos</h4>
+                <p>
+                    Esse texto está escrito em <b>negrito</b>, e esse texto é
+                    <strong>ainda mais enfatizado</strong>.
+                </p>
+                <p>
+                    Esse texto está em <i>itálico</i> e este possui <em>ênfase</em>.
+                </p>
+                <p>
+                    Isto é um texto escrito com <u class="underline">palavas erada</u> e
+                    aqui tem um <a href="#">link</a>.
+                </p>
+            </article>
+            <article>
+                <h4>Sobrescrito e subscrito</h4>
+                <p>3<sup>2</sup> é igual a 9.</p>
+                <p>A fórmula da água é representada por H<sub>2</sub>O.</p>
+            </article>
+            <article>
+                <h4>Abreviações</h4>
+                <p>
+                    Para criar páginas na web, precisamos aprender a linguagem de
+                    marcação de hipertexto, mais conhecida como
+                    <a href="#html-dfn"><abbr title="HiperText Markup Language">HTML</abbr></a>.
+                </p>
+                <p>
+                    O
+                    <dfn id="html-dfn"><abbr title="HiperText Markup Language">HTML</abbr></dfn>
+                    é a principal linguagem da web, na qual podemos incluir nosso
+                    conteúdo de forma semântica.
+                </p>
+            </article>
+            <article>
+                <h4>Citações</h4>
+                <blockquote>
+                    <p>
+                        O trabalho em si não é ruim. O ruim é a necessidade de trabalhar.
+                    </p>
+                    <cite>Seu Madruga</cite>
+                </blockquote>
+                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                    O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de cotação de
+                    bloco) é usado para indicar que o texto incluído é uma longa
+                    citação.
+                    <cite>MDN</cite>
+                </blockquote>
+                <p>
+                    Segundo Seu Madruga,
+                    <q>A vingança nunca é plena, mata a alma e envenena</q>.
+                </p>
+                <p>
+                    De acordo com o site da Mozilla, o
+                    <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox foi lançado em 2004 e
+                        tornou-se um grande sucesso</q>.
+                </p>
+                <p>
+                    O filme <cite>Escola do Rock</cite> apresenta várias músicas
+                    clássicas.
+                </p>
+            </article>
+            <article>
+                <h4>Coisas de computadores</h4>
+                <p>
+                    A propriedade <code>background</code> do CSS é utilizada para
+                    definir uma imagem de fundo.
+                </p>
+                <pre>
+Este é um exemplo de texto pré-formatado, utilizando a tag &lt;pre&gt; do HTML.</pre>
+                <pre>
+                    <code>
+article {
+padding-top: 1px;
+    padding-bottom: 1px;
+}
+                    </code>
+                </pre>
+                <p>
+                    Após executar o método <code>push()</code>, obtive o seguinte
+                    retorno:
+                    <samp lang="en-US">undefined has not a push() function</samp>.
+                </p>
+                <p>Para copiar, pressione a tecla <kbd>CTRL</kbd> + <kbd>C</kbd>.</p>
+            </article>
+            <article>
+                <h4>Datas e horários</h4>
+                <p>
+                    O evento ocorrerá em
+                    <time datetime="2025-11-10">10 de Novembro de 2025</time>.
+                </p>
+                <p>
+                    O evento ocorrerá em <time datetime="2025-11-10">10/11/2025</time>.
+                </p>
+                <p>
+                    O evento ocorrerá às
+                    <time datetime="2025-11-10T20:00:00">20h00 do dia 10 de Novembro de 2025</time>.
+                </p>
+                <p>
+                    O evento ocorrerá às
+                    <time datetime="2025-11-10T20:00:00-03:00">20h00 do dia 10 de Novembro de 2025</time>.
+                </p>
+                <h5 lang="en-US">JS Conference</h5>
+                <p>
+                    O evento iniciará pontualmente às
+                    <time datetime="19:00">19h00</time>.
+                </p>
+                <p>
+                    O evento foi reagendado para às 20h00 do dia
+                    <del datetime="2025-11-05">10 de Novembro de 2025</del>
+                    <ins><time datetime="2025-11-11T20:00:00-03:00">11 de Novembro de 2025</time></ins>.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

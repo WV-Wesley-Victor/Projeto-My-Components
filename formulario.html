@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <meta name="description"
+        content="Demonstração de formulário de contato e quiz utilizando HTML e CSS. Aprenda a criar formulários interativos para coletar informações dos usuários." />
+    <meta name="keywords" content="formulário de contato, quiz, HTML, CSS, interatividade com usuários" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#"><img src="img/perfil.png" alt="Wesley Victor Pereira Silva" class="perfil-img" /></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>My Components</h1>
+        <section>
+            <h2>Entre em contato</h2>
+            <div class="row">
+                <form action="#" method="post">
+                    <div class="row">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome completo" />
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" autocomplete="off" />
+                        </div>
+                    </div>
+                    <label for="mensagem">Digite sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="6"></textarea>
+                    <input type="submit" value="Enviar" class="btn" />
+                </form>
+                <address>
+                    <p>
+                        <b>Endereço:</b> 1234 Somewhere Rd. Nasville, TN 00000 United
+                        States
+                    </p>
+                    <p><b>Telefone:</b> 000-000-000</p>
+                    <p><b>E-mail:</b> email@server.com</p>
+                </address>
+            </div>
+        </section>
+        <section>
+            <h2>Quiz</h2>
+            <form action="#" method="post" class="form-quiz">
+                <label for="tecnologia">Qual é a sua linguagem preferida?</label>
+                <select name="tecnologia" id="tecnologia">
+                    <option value="null">Selecione uma linguagem</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </select>
+                <label>Baixa prioridade
+                    <input type="radio" name="prioridade" value="baixa" /></label>
+                <label>Média prioridade
+                    <input type="radio" name="prioridade" value="media" /></label>
+                <label>Alta prioridade <input type="radio" name="prioridade" value="alta" /></label>
+                <label><input type="checkbox" name="copy" value="true" /> Envie-me uma
+                    cópia</label>
+                <label><input type="checkbox" name="humano" value="true" /> Sou um
+                    humano</label>
+                <div class="row">
+                    <input type="reset" value="Limpar" />
+                    <input type="submit" value="Enviar" class="btn btn-stroke" />
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

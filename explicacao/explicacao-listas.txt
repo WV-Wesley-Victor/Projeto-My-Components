@@ -1,0 +1,40 @@
+Vou explicar o código HTML fornecido:
+
+1 - Declaração do Documento e Metadados: A primeira parte do código declara o tipo de documento como HTML5 e inclui metadados importantes, como codificação, viewport, autor e descrição da página.
+
+2 - Cabeçalho (Header) da Página:
+
+    - main-header: Define o cabeçalho principal da página, que inclui um logotipo ou imagem de perfil e uma barra de navegação (main-nav) contendo links para outras páginas.
+
+3 - Corpo (Body) da Página:
+
+    - main: Define a seção principal da página, que contém um título (h1) e um artigo (article) que introduzem o conceito de listas em HTML.
+        - h2: Título do artigo, "Listas".
+        - p: Parágrafo que descreve os três tipos de listas: ordenadas, não ordenadas e aninhadas.
+    - section: Uma seção que contém várias demonstrações de diferentes tipos de listas.
+        - div.row: Contém três colunas, cada uma demonstrando um tipo de lista diferente.
+            - div: Cada coluna contém um título (h3) e um exemplo de lista.
+                - ul: Lista não ordenada com três itens (li).
+                - ol: Lista ordenada com três itens (li) começando a partir do número 3.
+                - ul.alternate: Lista não ordenada com classe alternada.
+            - div: Cada coluna contém um título (h3) e um exemplo de lista aninhada.
+                - ul: Lista não ordenada com cinco itens (li).
+                    - ul: Lista aninhada dentro do segundo item.
+                        - li: Item aninhado.
+                        - li: Item aninhado com outra lista aninhada.
+                            - ul: Lista aninhada dentro do item aninhado.
+                                - li: Itens aninhados dentro da lista aninhada.
+                        - li: Item aninhado.
+                    - ol: Lista ordenada com cinco itens (li) começando do número 6 e usando letras maiúsculas.
+                        - ol: Lista aninhada reversa dentro do segundo item.
+                            - li: Item aninhado.
+                            - li: Item aninhado com outra lista aninhada.
+                                - ol: Lista aninhada dentro do item aninhado, começando do número 10 e usando letras minúsculas.
+                                    - li: Itens aninhados dentro da lista aninhada.
+                            - li: Item aninhado.
+                    - ol.roman: Lista ordenada com estilo de numeração romana.
+                        - li: Item 1.
+                        - ul.list-emoji: Lista não ordenada com classe "list-emoji".
+                            - li: Itens com ícones de emoji.
+
+Este código cria uma página que apresenta informações sobre diferentes tipos de listas HTML, incluindo listas não ordenadas, ordenadas e aninhadas. Cada tipo de lista é ilustrado com exemplos específicos. A página inclui um cabeçalho de navegação e é estilizada com base nos estilos definidos nos arquivos CSS "normalize.css" e "estilo.css".
